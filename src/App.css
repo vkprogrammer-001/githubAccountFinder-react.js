@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+  background-color: aqua;
 }
 
 .app {
@@ -14,6 +15,24 @@
   margin: 0 auto;
 }
 
+.heading{
+  text-align: center;
+  font-family:fantasy;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+button{
+  box-shadow: 4px 4px 4px #988a8a;
+}
+button:active{
+  box-shadow: 2px 2px 4px 2px #aaa;
+}
+
+h3{
+  text-align: center;
+  font-family:fantasy;
+}
 .search-form {
   width: 100%;
   margin-bottom: 20px;

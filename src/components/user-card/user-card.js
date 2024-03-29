@@ -24,7 +24,8 @@ export default function UserCard (props) {
                 href={props.accountLink} 
                 target="_blank"
             > {props.username} </a>
-            hi from user card ...
+            <p>{props.bio}</p>
+            
         </div>
     )
 }
